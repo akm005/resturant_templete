@@ -16,3 +16,7 @@ code {
 .amatic {
   font-family: "Amatic SC", sans-serif;
 }
+
+ul {
+  list-style-type: none;
+}
