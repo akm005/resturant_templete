@@ -8,7 +8,7 @@ export default function Header() {
     <header className="header d-flex align-items-center sticked fixed-top stickied  border-bottom  justify-content-center align-items-center bg-white">
       <nav className="navbar navbar-expand-lg bg-body-white mx-lg-5" id="nav-header">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="#hero">
             <h2>{config.APP_NAME}<span className="text-danger">.</span></h2>
           </a>
           <button
@@ -25,7 +25,7 @@ export default function Header() {
           <div className="collapse navbar-collapse justify-content-center h6" id="navbarContent">
             <ul className="navbar-nav mb-2 mb-lg-0 gap-3">
               <li className="nav-item p-1">
-                <a className="nav-link active" href="#">
+                <a className="nav-link active" href="#hero">
                   Home
                 </a>
               </li>

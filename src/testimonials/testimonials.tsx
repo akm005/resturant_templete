@@ -56,7 +56,7 @@ export default function Testimonials() {
             type="button"
             data-bs-target="#testimonialsCarousel"
             data-bs-slide-to={i}
-            className={`${style.carouselIndicator} ${(i===0)?" rounded-circle active":" rounded-circle"}`}
+            className={`carouselIndicator ${(i===0)?" active":""}`}
             aria-current={(i===0)?"true":"false"}
             aria-label={"Slide " + (i+1)}
           ></button>)}
