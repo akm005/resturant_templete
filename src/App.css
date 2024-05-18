@@ -71,6 +71,13 @@ ul {
   font-size: 1.75rem;
 }
 
-.carousel-indicators button.active{
+.carouselIndicator.active{
   background-color: var(--color-primary) !important;
+}
+
+.carouselIndicator{
+  width: 0.8em !important;
+  height: 0.8em !important;
+  background-color: var(--color-secondary) !important;
+  border-radius: 50% !important;
 }

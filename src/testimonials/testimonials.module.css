@@ -13,9 +13,3 @@
 .carousel{
     height:17em;
 }  
-
-.carouselIndicator{
-    width: 0.8em !important;
-    height: 0.8em !important;
-    background-color: var(--color-secondary) !important;
-  }
