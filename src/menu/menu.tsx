@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./menu.module.css";
+import SectionHeader from "../Utility/sectionHeader.tsx";
 
 const navItems = ["Starter", "Breakfast", "Lunch", "Dinner"];
 const menuItem = [
@@ -44,12 +45,7 @@ const menuItem = [
 export default function Menu() {
   return (
     <section id="menu" className={style.menu + " container"}>
-      <div className="section-header">
-        <h2>Our Menu</h2>
-        <p className="amatic fs-1">
-          Check Our <span className="text-danger">Yummy Menu</span>
-        </p>
-      </div>
+      <SectionHeader title='Our Menu' description={['Check Our',"Yummy Menu"]}/>
       <div className="d-flex flex-column justify-content-center align-items-center">
         <ul className="nav bg-body-white">
           {navItems.map((item, i) => (

@@ -3,7 +3,8 @@ import Header from './header/header.tsx';
 import HeroSection from './heroSection/heroSection.tsx'
 import AboutUs from './aboutUs/aboutUs.tsx';
 import WhyUs from './whyUs/whyUs.tsx';
-import Menu from './menu/menu.tsx'
+import Menu from './menu/menu.tsx';
+import Testimonials from './testimonials/testimonials.tsx';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <AboutUs/>
       <WhyUs/>
       <Menu/>
+      <Testimonials/>
     </div>
   );
 }

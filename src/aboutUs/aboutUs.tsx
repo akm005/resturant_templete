@@ -1,12 +1,10 @@
 import React from 'react'
 import style from './aboutUs.module.css'
+import SectionHeader from '../Utility/sectionHeader.tsx'
 export default function AboutUs() {
   return (
     <section id='about' className={style.about + ' container'}>
-        <div className={style['section-header']}>
-            <h2>About Us</h2>
-            <p className='amatic fs-1'>Learn More <span className='text-danger'>About Us</span></p>
-        </div>
+        <SectionHeader title='About Us' description={['Learn More',"About Us"]}/>
         <div className='row gy-4'>
             <div className={"col col-lg-7 position-relative " + style['about-img']}>
             <div className={style.callus + " position-absolute"}>
