@@ -37,3 +37,40 @@
   }
 }
 
+
+.amatic {
+  font-family: "Amatic SC", sans-serif;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.section-bg {
+  background-color: #eee;
+}
+.section-header h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: #7f7f90;
+  text-transform: uppercase;
+}
+
+.rotateDown{
+  transform: rotate(180deg) translateY(-10px);
+}
+.rotateDown::before{
+  content: '';
+  transform: rotate(180deg) translateY(-10px);
+  font-size: 1.75rem;
+}
+
+.carousel-indicators button.active{
+  background-color: var(--color-primary) !important;
+}
