@@ -6,6 +6,7 @@ import WhyUs from './whyUs/whyUs.tsx';
 import Menu from './menu/menu.tsx';
 import Testimonials from './testimonials/testimonials.tsx';
 import Events from './events/events.tsx';
+import Chefs from './chefs/chefs.tsx'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Menu/>
       <Testimonials/>
       <Events/>
+      <Chefs/>
     </div>
   );
 }

@@ -44,6 +44,9 @@
 .inter {
   font-family: "Inter", sans-serif;
 }
+.openSans{
+    font-family: "Open Sans", sans-serif;
+}
 
 ul {
   list-style-type: none;
