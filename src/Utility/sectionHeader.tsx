@@ -6,7 +6,9 @@ function SectionHeader({title,description}) {
     <div className="section-header pb-4">
         <h2>{title}</h2>
         <p className="amatic fs-1">
-        {description[0] }<span className="text-danger ms-2">{description[1]}</span>
+        {description[0] }
+        <span className="text-danger mx-2">{description[1]}</span>
+        {description[2]??''}
         </p>
       </div>
   )
