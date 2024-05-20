@@ -1,0 +1,55 @@
+.chefs {
+    overflow: hidden;
+    padding: 80px 0;
+    scroll-margin-top: 90px;
+    overflow: clip;
+  }
+
+  .social {
+    position: absolute;
+    right: -100%;
+    top: 30px;
+    opacity: 0;
+    border-radius: 4px;
+    transition: 0.5s;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 2;
+  }
+
+  .chefMember {
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.08);
+    transition: 0.3s;
+  }
+
+  .chefMember:hover{
+    transform: scale(1.08);
+    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15);
+  }
+
+  .chefMember:hover .social{
+    right: 8px;
+    opacity: 1;
+  }
+
+  .memberImg{
+    position: relative;
+    overflow: hidden;
+  }
+
+
+  .memberImg:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: url("../../public/assets/images/team-shape.svg") no-repeat center bottom;
+    background-size: contain;
+    z-index: 1;
+  }
+  
