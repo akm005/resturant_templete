@@ -5,6 +5,7 @@ import AboutUs from './aboutUs/aboutUs.tsx';
 import WhyUs from './whyUs/whyUs.tsx';
 import Menu from './menu/menu.tsx';
 import Testimonials from './testimonials/testimonials.tsx';
+import Events from './events/events.tsx';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <WhyUs/>
       <Menu/>
       <Testimonials/>
+      <Events/>
     </div>
   );
 }
