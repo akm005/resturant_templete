@@ -1,0 +1,13 @@
+.miniCard{
+    width: 207.2px !important;
+    display: block !important;
+    margin-right: -40% !important;
+  }
+
+  .miniCard.active{
+    border: 6px solid var(--color-primary);
+    padding: 4px;
+    background: #fff;
+    z-index: 1;
+    transform: scale(1.2);
+  }
