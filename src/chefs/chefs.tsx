@@ -38,6 +38,7 @@ export default function Chefs() {
           {chefsData.map((data, i) => (
             <div
               className="col-lg-4 col-md-6 d-flex align-items-stretch"
+              key={i}
             >
               <div className={style.chefMember}>
                 <div className={style.memberImg}>
