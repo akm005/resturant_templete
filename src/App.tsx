@@ -10,6 +10,7 @@ import Chefs from './chefs/chefs.tsx';
 import BookTable from './bookTable/bookTable.tsx'
 import React from 'react';
 import Gallery from './gallery/gallery.tsx';
+import Footer from './footer/footer.tsx';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Chefs/>
       <BookTable/>
       <Gallery/>
+      <Footer/>
     </div>
   );
 }
