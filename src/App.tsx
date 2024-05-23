@@ -8,6 +8,8 @@ import Testimonials from './testimonials/testimonials.tsx';
 import Events from './events/events.tsx';
 import Chefs from './chefs/chefs.tsx';
 import BookTable from './bookTable/bookTable.tsx'
+import React from 'react';
+import Gallery from './gallery/gallery.tsx';
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
       <Events/>
       <Chefs/>
       <BookTable/>
+      <Gallery/>
     </div>
   );
 }
