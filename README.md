@@ -7,6 +7,8 @@ This project involves converting a static Bootstrap template into a dynamic and 
 ## Demo
 
 Check out the live demo of the application [here](https://akm005.github.io/resturant_templete/).
+![image](https://github.com/akm005/resturant_templete/assets/88195114/a28721eb-d40e-4d70-a480-0512be3a8c7d)
+
 
 ## Technologies Used
 
